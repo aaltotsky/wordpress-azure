@@ -55,8 +55,8 @@ global $complete;?>
         </div>              
         <div class="clear"></div> 
     </div>
-    <div id="copyright">
-        <div class="copytext"><?php $copyrightcntnt = $complete['footer_text_id']; echo do_shortcode($copyrightcntnt); ?></div>
+    <div class="container text-center">
+        <div class="copytext">&copy;<?php echo date('Y'); ?> - WorldWisePeople</div>
     </div>
 </div>
 

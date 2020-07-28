@@ -252,18 +252,26 @@ add_shortcode( 'space', 'space_shortcode_func' );
     [social icon="pinterest" link="#"]
 [/social_area]*/
 function complete_social_area($atts,$content = null){
-  return '<div class="social-icons">'.do_shortcode($content).'</div>';
+  return '
+  <div class="social-icons">
+<a href="https://www.facebook.com/iAmSapien/" target="_blank" class="fa fa-facebook fa-1x" title="facebook"></a>
+<a href="https://twitter.com/WeRSapien" target="_blank" class="fa fa-twitter fa-1x" title="twitter"></a>
+<a href="https://www.instagram.com/iamsapien/" target="_blank" class="fa fa-instagram fa-1x" title="instagram"></a>
+<a href="http://blog.iamsapien.com/" target="_blank" class="fa fa-rss fa-1x" title="blog"></a>
+<a href="mailto:info@iamsapien.com" target="_blank" class="fas fa-envelope fa-1x" title="email"></a>
+</div>
+  ';
  }
 add_shortcode('social_area','complete_social_area');
 
-function complete_social($atts){
- extract(shortcode_atts(array(
-  'icon' => '',
-  'link' => ''
- ),$atts));
-  return '<a href="'.$link.'" target="_blank" class="fa fa-'.$icon.' fa-1x" title="'.$icon.'"></a>';
- }
-add_shortcode('social','complete_social');
+// function complete_social($atts){
+ // extract(shortcode_atts(array(
+  // 'icon' => '',
+  // 'link' => ''
+ // ),$atts));
+  // return '<a href="'.$link.'" target="_blank" class="fa fa-'.$icon.' fa-1x" title="'.$icon.'"></a>';
+ // }
+// add_shortcode('social','complete_social');
 
 // Footer Posts
 
