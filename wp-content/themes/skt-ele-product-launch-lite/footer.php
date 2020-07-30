@@ -55,7 +55,8 @@ global $complete;?>
         </div>              
         <div class="clear"></div> 
     </div>
-    <div class="container text-center">
+    <div class="container text-center text-white">
+		<p class="m-0">Robert Swanson <a class="text-white" href="tel:5097744064">09-774-4064</a></p>
         <div class="copytext">&copy;<?php echo date('Y'); ?> - WorldWisePeople</div>
     </div>
 </div>

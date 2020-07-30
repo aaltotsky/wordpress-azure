@@ -258,7 +258,7 @@ function complete_social_area($atts,$content = null){
 <a href="https://twitter.com/WeRSapien" target="_blank" class="fa fa-twitter fa-1x" title="twitter"></a>
 <a href="https://www.instagram.com/iamsapien/" target="_blank" class="fa fa-instagram fa-1x" title="instagram"></a>
 <a href="http://blog.iamsapien.com/" target="_blank" class="fa fa-rss fa-1x" title="blog"></a>
-<a href="mailto:info@iamsapien.com" target="_blank" class="fas fa-envelope fa-1x" title="email"></a>
+<a href="mailto:robert@worldwisepeople.com" target="_blank" class="fas fa-envelope fa-1x" title="email"></a>
 </div>
   ';
  }
